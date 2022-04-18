@@ -1,0 +1,2 @@
+to prevent framing using the <frame> tag or <iframe> tag, use helmet. frameguard and set the action
+ app.use(helmet.frameguard({action: 'deny'}));
