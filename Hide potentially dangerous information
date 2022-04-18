@@ -1,0 +1,15 @@
+Hiding potentaily dangerous information with helmet using the hide powered by command;
+
+first uninstall helmet:
+npm uninstall helmet
+refresh on terminal
+
+install helmet 2.3.0
+ refresh
+ 
+ go to myapp.js
+ app.use(helmet.hidePoweredBy());
+ 
+ to further decieve hacker
+ 
+ app.use(helmet.hidePoweredBy({setTo: 'PHP 4.2.0'}));
