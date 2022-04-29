@@ -1,0 +1,11 @@
+app.use(helmet(
+  {
+  frameguard:({action: 'deny'}),
+     
+  hsts:({ maxAge: ninetyDaysInSeconds,
+  force: true}),
+  
+  contentSecurityPolicy:({directives:{defaultSrc:["'self'"], scriptSrc:["'self'", 'trusted-cdn.com']}
+  
+}
+)
