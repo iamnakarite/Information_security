@@ -1,0 +1,3 @@
+app.use(helmet.dnsPreFetchControl());
+
+N.B: uninstall helmet and reinstall helmet @2.3.0
