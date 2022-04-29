@@ -1,2 +1,4 @@
 In the myApp.js file, create a variable to use for the maxAge configuration by adding var ninetyDaysInSeconds = 90*24*60*60; under the seventh instructions.
 Then, on the next line add app.use(helmet.hsts({ maxAge: ninetyDaysInSeconds, force: true }));.
+
+N.b: i had to uninstall helmet and install hemet version 3.23.3
